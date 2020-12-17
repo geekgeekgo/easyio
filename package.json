@@ -1,20 +1,15 @@
 {
-  "name": "easyio",
-  "version": "0.0.1",
-  "description": "A tiny node.js app to test your socket.io connectivity",
-  "main": "main.js",
-  "repository": {
-    "url": "git@github.com:Juriy/easyio.git",
-    "type": "git"
-  },
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node main.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Juriy Bura <juriy.bura@gmail.com>",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "minimist": "^1.2.5",
-    "socket.io": "^2.3.0"
+    "aws-serverless-express": "^3.3.8",
+    "express": "^4.17.1"
   }
 }
