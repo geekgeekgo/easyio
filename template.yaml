@@ -9,8 +9,13 @@ Resources:
       Runtime: nodejs12.x
       CodeUri: ./
       Events:
-        MyTimeApi:
+        GetEvent:
           Type: Api
           Properties:
-            Path: /hello
-            Method: GET
+            Path: /
+            Method: get
+        PostEvent:
+          Type: Api
+          Properties:
+            Path: /
+            Method: post
