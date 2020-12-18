@@ -12,10 +12,10 @@ Resources:
         GetEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /hello
             Method: get
         PostEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /hello
             Method: post
